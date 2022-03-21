@@ -19,18 +19,13 @@
     <!-- Latest compiled JavaScript -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <style>
-        #menu {
-            background-color: white;
-        }
-
-        #menu a {
+        .nav-item a {
             color: black;
-            line-height: 50px;
             text-decoration: none;
             padding: 30px;
         }
 
-        #menu a:hover {
+        .nav-item a:hover {
             background-color: #9CBD3B;
             color: white;
         }
@@ -38,15 +33,31 @@
 </head>
 
 <body>
+    <!-- A grey horizontal navbar that becomes vertical on small screens -->
     <div class="container">
-        <div class="row">
-            <img class="float-left" src="img/logo.png">
-            <div id="menu" class="float-right">
-                <a href="#">Nextgen Gallery</a>
-                <a href="#">Themes</a>
-                <a href="#">Pricing</a>
+        <nav class="navbar navbar-expand-sm " style="background-color: white;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: black;background-color: black;"></span>
+            </button>
+            <a class="navbar-brand" href="#"> <img class="float-left" src="img/logo.png">
+            </a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+
+                <!-- Links -->
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nextgen Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Themes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
     </div>
     <div class="container">
         <div class="row">
@@ -55,102 +66,43 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row p-3">
-            <div class="col-md-1"></div>
-            <div class="col-md-2 col-sm-4">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-2 col-sm-4 p-3">
                 <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
             </div>
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-4 p-3">
                 <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
             </div>
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-4 p-3">
                 <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
             </div>
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-4 p-3">
                 <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
             </div>
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-4 p-3">
                 <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-md-2 col-sm-4 p-3">
+                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
+            </div>
+            <div class="col-md-2 col-sm-4 p-3">
+                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
+            </div>
+            <div class="col-md-2 col-sm-4 p-3">
+                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
+            </div>
+            <div class="col-md-2 col-sm-4 p-3">
+                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
+            </div>
+            <div class="col-md-2 col-sm-4 p-3">
+                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
+            </div>
+            <div class="col-md-2 col-sm-4 p-3">
+                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
+            </div>
         </div>
-        <div class="row p-3">
-            <div class="col-md-1"></div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-1"></div>
-        </div>
-        <div class="row p-3">
-            <div class="col-md-1"></div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-1"></div>
-        </div>
-        <div class="row p-3">
-            <div class="col-md-1"></div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-1"></div>
-        </div>
-        <div class="row p-3">
-            <div class="col-md-1 col-sm-0"></div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img class="rounded img-thumbnail" src="https://www.w3schools.com/bootstrap4/paris.jpg">
-            </div>
-            <div class="col-md-1 col-sm-0"></div>
-        </div>
+
     </div>
 
 
